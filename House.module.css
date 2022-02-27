@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    margin: 3rem;
+    background-color: #dfdfdf;
+  }
+  
+  .actions button {
+    font: inherit;
+    cursor: pointer;
+    background-color: #240077;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid #240077;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  .actions button:hover,
+  .actions button:active {
+    background-color: #0e43a5;
+    border-color: #0e43a5;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    width: 20rem;
+  }
+  
+  .actions {
+    text-align: right;
+  }
+  
